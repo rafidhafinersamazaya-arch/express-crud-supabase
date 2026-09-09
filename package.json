@@ -1,0 +1,21 @@
+{
+  "name": "express-crud",
+  "version": "1.0.0",
+  "description": "Project CRUD Backend Express JS dengan Supabase (PostgreSQL)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "overrides": {
+    "qs": "6.16.0"
+  }
+}
